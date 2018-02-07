@@ -1,3 +1,6 @@
-n=[1,2,3,4,5]
-for i in range(0,n-1):
-    print(i,n.index(i))
+n=int (input())
+lst=[]
+for i in range(0,n):
+    lst.append(int(input()))
+for j in range(0,n):
+    print(str(lst[j])+" "+str(j))	
